@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.pageHeader {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
