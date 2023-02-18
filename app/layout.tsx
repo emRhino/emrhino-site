@@ -27,14 +27,10 @@ export default function RootLayout({
       <head />
       <body>
         <div className={classes.wrapper}>
-          <header className={classes.pageHeader}>
-            <Header />
-          </header>
-        </div>
-        <main>{children}</main>
-        <footer>
+          <Header />
+          <main>{children}</main>
           <Footer />
-        </footer>
+        </div>
       </body>
     </html>
   );
