@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <section className={styles.section}>
-        <div class={styles.group}>
-          <div class={styles.left}>
+        <div class="group">
+          <div class="left">
             <h1 className={styles.h1}>Cześć, tutaj Marcin Rynkowski</h1>
             <p className={styles.text}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -22,11 +22,11 @@ export default function Home() {
               <Link href="/o-mnie">Czytaj dalej o mnie</Link>
             </div>
           </div>
-          <div class={styles.right}>Moje foto</div>
+          <div class="right">Moje foto</div>
         </div>
       </section>
       <section className={styles.section}>
-        <div class={styles.group}>
+        <div class="group">
           <div class={styles.left}>obrazki portfolio</div>
           <div class={styles.right}>
             <h2>Portfolio</h2>

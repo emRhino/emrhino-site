@@ -25,3 +25,31 @@ export const projects = [
     preview: "",
   },
 ];
+
+export const home_page = {
+  page_title: "",
+  page_meta_title: "",
+  page_meta_description: "",
+  content: "",
+};
+
+export const about_page = {
+  page_title: "",
+  page_meta_title: "",
+  page_meta_description: "",
+  content: "",
+};
+
+export const projects_page = {
+  page_title: "",
+  page_meta_title: "",
+  page_meta_description: "",
+  content: "",
+};
+
+export const contact_page = {
+  page_title: "Strona kontaktu",
+  page_meta_title: "Strona kontaktu",
+  page_meta_description: "Strona kontaktu",
+  content: "",
+};

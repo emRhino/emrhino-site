@@ -7,6 +7,7 @@
   --color-footer-bg: #fafafa;
   --color-main-bg: #fafafa;
   --color-line: rgb(209, 209, 209);
+  --color-footer-heart: #d80101;
   --font-size-base: 16px;
 }
 
@@ -26,4 +27,18 @@ footer {
 
 a {
   color: var(--color-link);
+}
+
+p {
+  line-height: 1.5;
+}
+
+.group {
+  display: flex;
+  gap: 24px;
+}
+
+.left,
+.right {
+  flex: 1;
 }

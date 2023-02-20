@@ -1,12 +1,19 @@
 .link {
   text-decoration: none;
   display: block;
-  padding: 5px 10px;
+  padding: 8px 0 5px;
+  margin: 0 10px;
   font-weight: 500;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
 }
 
 .nav {
   display: flex;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.active {
+  border-bottom: 3px solid var(--color-purple-1);
 }
