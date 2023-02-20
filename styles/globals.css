@@ -1,3 +1,29 @@
+:root {
+  --color-primary: #222;
+  --color-footer-text: #555555;
+  --color-link: #222;
+  --color-purple-1: #502bd8;
+  --color-purple-2: #6749d1;
+  --color-footer-bg: #fafafa;
+  --color-main-bg: #fafafa;
+  --color-line: rgb(209, 209, 209);
+  --font-size-base: 16px;
+}
+
 body {
   font-family: var(--font-roboto);
+  color: var(--color-primary);
+  font-size: var(--font-size-base);
+}
+
+header,
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+a {
+  color: var(--color-link);
 }

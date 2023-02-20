@@ -1,5 +1,9 @@
-import classes from "./Footer.module.css";
+import styles from "./Footer.module.css";
 
 export default function Footer() {
-  return <footer class="footer">Stworzone z ❤ w Next.js</footer>;
+  return (
+    <footer className={styles.footer}>
+      <section className={styles.section}>Stworzone z ❤ w Next.js</section>
+    </footer>
+  );
 }

@@ -1,11 +1,22 @@
-.wrapper {
-  display: flex;
-  justify-content: center;
-}
-
 .pageHeader {
   max-width: 900px;
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--color-main-bg);
+}
+
+.section {
+  max-width: 900px;
+  width: 100%;
+  /* display: flex;
+  justify-content: space-between; */
+  padding: 24px 0;
 }

@@ -1,12 +1,14 @@
-import classes from "./Header.module.css";
+import styles from "./Header.module.css";
 import Logo from "./Logo";
-import Nav from "./Nav";
+import Navigation from "../Navigation/Navigation";
 
 export default function Header() {
   return (
-    <>
-      <Logo />
-      <Nav />
-    </>
+    <header className={styles.header}>
+      <div className={styles.section}>
+        <Logo />
+        <Navigation />
+      </div>
+    </header>
   );
 }

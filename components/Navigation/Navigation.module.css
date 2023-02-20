@@ -1,0 +1,12 @@
+.link {
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+  font-weight: 500;
+  font-size: 1.15rem;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+}
