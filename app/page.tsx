@@ -1,13 +1,13 @@
 import Image from "next/image";
 import styles from "./HomePage.module.css";
-import Link from "next/link";
+import Button from "@/components/Button/Button";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <section className={styles.section}>
-        <div class="group">
-          <div class="left">
+        <div className="group">
+          <div className="left">
             <h1 className={styles.h1}>Cześć, tutaj Marcin Rynkowski</h1>
             <p className={styles.text}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -18,17 +18,35 @@ export default function Home() {
               nulla pariatur.
             </p>
             <div className={styles.links}>
-              <Link href="/cv">Pobierz CV</Link>
-              <Link href="/o-mnie">Czytaj dalej o mnie</Link>
+              <Button href="/cv" style="primary">
+                Pobierz CV
+              </Button>
+              <Button href="/o-mnie" style="secondary">
+                Czytaj dalej o mnie
+              </Button>
             </div>
           </div>
-          <div class="right">Moje foto</div>
+          <div className="right">
+            <Image
+              src="/me.jpg"
+              alt="Marcin Rynkowski"
+              width={1037}
+              height={692}
+            />
+          </div>
         </div>
       </section>
       <section className={styles.section}>
-        <div class="group">
-          <div class={styles.left}>obrazki portfolio</div>
-          <div class={styles.right}>
+        <div className="group">
+          <div className="left">
+            <Image
+              src="/me.jpg"
+              alt="Marcin Rynkowski"
+              width={1037}
+              height={692}
+            />
+          </div>
+          <div className="right">
             <h2>Portfolio</h2>
             <p className={styles.text}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -39,7 +57,9 @@ export default function Home() {
               nulla pariatur.
             </p>
             <div className={styles.links}>
-              <Link href="/portfolio">Zobacz wszystkie projekty</Link>
+              <Button href="/projekty" style="primary">
+                Zobacz projekty
+              </Button>
             </div>
           </div>
         </div>

@@ -1,0 +1,30 @@
+.btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.15s;
+}
+
+.primary {
+  background: var(--color-button-primary-bg);
+  color: var(--color-button-primary-text);
+  border: 1px solid var(--color-button-primary-bg);
+}
+
+.secondary {
+  border: 1px solid var(--color-button-primary-bg);
+  color: var(--color-button-primary-bg);
+}
+
+.primary:hover {
+  background: var(--color-button-primary-bg--hover);
+  border: 1px solid var(--color-button-primary-bg--hover);
+}
+
+.secondary:hover {
+  background: var(--color-button-primary-bg--hover);
+  border: 1px solid var(--color-button-primary-bg--hover);
+  color: var(--color-button-primary-text);
+}

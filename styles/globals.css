@@ -8,6 +8,9 @@
   --color-main-bg: #fafafa;
   --color-line: rgb(209, 209, 209);
   --color-footer-heart: #d80101;
+  --color-button-primary-bg: #502bd8;
+  --color-button-primary-text: white;
+  --color-button-primary-bg--hover: #6749d1;
   --font-size-base: 16px;
 }
 
@@ -35,10 +38,16 @@ p {
 
 .group {
   display: flex;
-  gap: 24px;
+  align-items: center;
+  gap: 48px;
 }
 
 .left,
 .right {
   flex: 1;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
