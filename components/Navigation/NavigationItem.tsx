@@ -3,15 +3,18 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import styles from "./Navigation.module.css";
+import classnames from "classnames";
 
 export default function NavigationItem({ label, link }) {
   const pathname = usePathname();
 
-  const isActive = pathname === link ? ` ${styles.active}` : "";
+  const classes = classnames(styles.link, {
+    [styles.active]: pathname.includes(link),
+  });
 
   return (
     <li>
-      <Link className={styles.link + isActive} href={link}>
+      <Link className={classes} href={link}>
         {label}
       </Link>
     </li>

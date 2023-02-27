@@ -1,7 +1,7 @@
 :root {
-  --color-primary: #222;
+  --color-primary: #3a3a3a;
   --color-footer-text: #555555;
-  --color-link: #222;
+  --color-link: #3a3a3a;
   --color-purple-1: #502bd8;
   --color-purple-2: #6749d1;
   --color-footer-bg: #fafafa;
@@ -12,6 +12,13 @@
   --color-button-primary-text: white;
   --color-button-primary-bg--hover: #6749d1;
   --font-size-base: 16px;
+  --page-width-footer: 800px;
+  --page-width-header: 1000px;
+  --page-width-main: 800px;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -50,4 +57,18 @@ p {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--color-main-bg);
+}
+
+.section {
+  max-width: var(--page-width-main);
+  width: 100%;
+  padding: 48px 0;
 }

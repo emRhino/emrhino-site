@@ -1,11 +1,11 @@
 import Image from "next/image";
-import styles from "./HomePage.module.css";
+import styles from "./page.module.css";
 import Button from "@/components/Button/Button";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <section className={styles.section}>
+    <main className="main">
+      <section className="section">
         <div className="group">
           <div className="left">
             <h1 className={styles.h1}>Cześć, tutaj Marcin Rynkowski</h1>
@@ -28,7 +28,7 @@ export default function Home() {
           </div>
           <div className="right">
             <Image
-              src="/me.jpg"
+              src="/marcin.png"
               alt="Marcin Rynkowski"
               width={1037}
               height={692}
@@ -36,7 +36,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className={styles.section}>
+      <section className="section">
         <div className="group">
           <div className="left">
             <Image
@@ -64,7 +64,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className={styles.section}>
+      <section className="section">
         <h2>Kontakt</h2>
         <p className={styles.text}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

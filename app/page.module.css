@@ -1,0 +1,11 @@
+.pageHeader {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  gap: 12px;
+}

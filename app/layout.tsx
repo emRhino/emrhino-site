@@ -1,15 +1,15 @@
-import { Roboto } from "@next/font/google";
+import { Lato } from "@next/font/google";
 
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 
 import "normalize.css/normalize.css";
 import "@/styles/globals.css";
-import classes from "@/app/HomePage.module.css";
+import classes from "@/app/page.module.css";
 
-const roboto = Roboto({
+const lato = Lato({
   subsets: ["latin-ext"],
-  weight: ["300", "400", "500", "700", "900"],
+  weight: ["300", "400", "700", "900"],
   variable: "--font-roboto",
 });
 
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pl" className={roboto.variable}>
+    <html lang="pl" className={lato.variable}>
       {/*
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head

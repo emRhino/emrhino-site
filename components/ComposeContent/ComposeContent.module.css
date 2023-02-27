@@ -1,0 +1,22 @@
+.links {
+  margin: 1rem 0;
+  display: flex;
+  gap: 12px;
+}
+
+.links a {
+  padding: 12px 24px;
+  background: var(--color-button-primary-bg);
+  border-radius: 6px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+.listItem {
+  padding: 3px 0;
+}
+
+.image {
+  margin: 1rem 0;
+}
