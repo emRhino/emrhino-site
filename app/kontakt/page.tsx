@@ -6,7 +6,7 @@ import { BsLinkedin, BsEnvelope, BsFacebook, BsGithub } from "react-icons/bs";
 export default function Contact() {
   const { content } = contact_page;
 
-  const icon = (section) => {
+  const icon = (section: any) => {
     switch (section.id) {
       case "github":
         return <BsGithub />;

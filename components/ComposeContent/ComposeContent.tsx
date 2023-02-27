@@ -5,7 +5,7 @@ import ImageContent from "./sections/ImageContent";
 import LinksContent from "./sections/LinksContent";
 import VideoContent from "./sections/VideoContent";
 
-const chooseSection = (section, data) => {
+const chooseSection = (section: any, data: any) => {
   switch (section) {
     case "p":
       return <ParagraphContent data={data} />;
@@ -27,8 +27,8 @@ const chooseSection = (section, data) => {
   }
 };
 
-export default function ProjectContent({ sections }) {
-  const renderContent = sections.map((section) => (
+export default function ProjectContent({ sections }: { sections: any }) {
+  const renderContent = sections.map((section: any) => (
     <Fragment key={section.content}>
       {chooseSection(section.type, section.content)}
     </Fragment>
