@@ -1,6 +1,6 @@
-export default function getProjectBySlug(projects: any, slug: any) {
+export default function getProjectBySlug(projects, slug) {
   const project = projects.filter(
-    (project: any) => `/projekty/${project.slug}` === slug
+    (project) => `/projekty/${project.slug}` === slug
   );
   return project;
 }

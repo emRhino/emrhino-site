@@ -335,30 +335,72 @@ export const projects = [
 ];
 
 export const home_page = {
-  page_title: "",
-  page_meta_title: "",
-  page_meta_description: "",
-  content: "",
+  page_title: "Strona główna",
+  page_meta_title: "Portfolio projektowe - Marcin Rynkowski - emRhino.pl",
+  page_meta_description: "Portfolio projektowe - Marcin Rynkowski - emRhino.pl",
+  content: [],
 };
 
 export const about_page = {
-  page_title: "O mnie",
-  page_meta_title: "",
-  page_meta_description: "",
-  content: "bla bla bla",
+  page_title: "Cześć, nazywam się Marcin Rynkowski.",
+  page_meta_title: "O mnie - Marcin Rynkowski - emRhino.pl",
+  page_meta_description: "O mnie - Marcin Rynkowski - emRhino.pl",
+  content: [
+    {
+      type: "image",
+      content: "me.png",
+    },
+    {
+      type: "p",
+      content:
+        "Od przeszło 12 lat <strong>tworzę strony i sklepy internetowe</strong> jako freelancer, ale nigdy nie pracowałem dłużej jako etatowy programista. Dziś chcę to zmienić. Szukam pracy na stanowisku junior front-end developera.",
+    },
+    {
+      type: "h2",
+      content: "Freelance czy etat?",
+    },
+    {
+      type: "p",
+      content:
+        "Do tej pory łączyłem jedno i drugie. Nie chcę rezygnować z dorywczego tworzeniu sklepów stron i sklepów, ale także nie planuję by freelance był moim jedynym źródłem dochodu. Lubię tworzyć poboczne projekty bo to daje mi fajne pole do eskperymentowania i nauki nowych rzeczy. Lubie także kontakt z ludźmi i zarządzanie projektami.",
+    },
+    {
+      type: "h2",
+      content: "Co do tej pory robiłem?",
+    },
+    {
+      type: "p",
+      content:
+        "Oprócz dorywczego tworzenia stron, moim podstawowym zajęciem jest praca na etacie w biurze smyka. Ulokowany jest obecnie w dziale handlowym chociaż moje kompetencje mocno zazębiają się z IT. Na początku mojej pracy miałem też swój duży wkład w proces developmentu ówczesnej wersji smyk.com - wraz z zewnętrznym zespołem programistów kodowałem front i byłem odpowiedzialny za wersję mobilną sklepu.",
+    },
+    {
+      type: "p",
+      content:
+        "Dziś jestem Product Ownerem aplikacji mobilnej smyk.com. Jestem odpowiedzialny za cały proces tworzenia aplikacji od analizy biznesowej, przez projektowanie, aż po wdrożenie. Współpracuję z project managerami, grafikami, testerami i innymi zespołami biznesowymi. Jestem również bezpośrednio zaangażowany w zarzadzanie kontentem aplikacji, pozyskiwanie klientów oraz osiąganie zakłądanych celów sprzedażowych. W smyku zawiaduję również wszytskimi stronami korporacyjnymi. Aktualizuje je i rozbudowuje w zależności od potrzeb biznesu.",
+    },
+    {
+      type: "h2",
+      content: "Dlaczego chcę zmienić dział handlowy na IT?",
+    },
+    {
+      type: "p",
+      content:
+        "Do biznesu trafiłem trochę przez przypadek, siłą inercji projektu sklepu smyk.com przeszedłem od kodowania w stronę zarządzania treści, testowania a później pracy nad backlogiem. Mimo, że wciąż lubie to robić to czuję, że w obecnym miejscu wiekszość moich doświadczeń wciąż się powtarza, nie wiele uczę się nowych rzeczy. Nie widzę siębie na podobnych stanowisku w innej firmie. Ponadto nieopisaną frajdę wciąż sprawiają mi zadania bardzo techniczne, wymagający pracy koncepcyjnej czy kodowania. Chcę do tego wrócić i tylko tym się zająć.",
+    },
+  ],
 };
 
 export const projects_page = {
-  page_title: "Moje projekty",
-  content: "",
-  page_meta_title: "",
-  page_meta_description: "",
+  page_title: "Zrealizowane projekty",
+  content: [],
+  page_meta_title: "Zrealizowane projekty - emRhino.pl",
+  page_meta_description: "Zrealizowane projekty - emRhino.pl",
 };
 
 export const contact_page = {
   page_title: "Kontakt",
-  page_meta_title: "Strona kontaktu",
-  page_meta_description: "Strona kontaktu",
+  page_meta_title: "Kontakt - emRhino.pl",
+  page_meta_description: "Kontakt - emRhino.pl",
   content: [
     {
       type: "list",

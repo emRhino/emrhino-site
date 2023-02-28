@@ -70,5 +70,5 @@ img {
 .section {
   max-width: var(--page-width-main);
   width: 100%;
-  padding: 48px 0;
+  padding: 48px 12px;
 }

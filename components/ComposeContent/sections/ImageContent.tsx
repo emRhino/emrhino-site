@@ -3,9 +3,7 @@
 import styles from "../ComposeContent.module.css";
 import Image from "next/image";
 
-export default function ImageContent({ data }: { data: any }) {
-  console.log(data);
-
+export default function ImageContent({ data }) {
   const renderImage = data.source && (
     <div className={styles.image}>
       {

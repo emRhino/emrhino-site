@@ -1,3 +1,3 @@
-export default function ParagraphContent({ data }: { data: any }) {
+export default function ParagraphContent({ data }) {
   return <p>{data}</p>;
 }

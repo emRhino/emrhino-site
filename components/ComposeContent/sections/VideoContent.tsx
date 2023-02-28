@@ -1,3 +1,3 @@
-export default function VideoContent({ data }: { data: any }) {
+export default function VideoContent({ data }) {
   return <div>Video</div>;
 }

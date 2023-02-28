@@ -5,7 +5,7 @@ import Footer from "@/components/Footer/Footer";
 
 import "normalize.css/normalize.css";
 import "@/styles/globals.css";
-import classes from "@/app/page.module.css";
+import styles from "@/app/page.module.css";
 
 const lato = Lato({
   subsets: ["latin-ext"],
@@ -13,11 +13,7 @@ const lato = Lato({
   variable: "--font-roboto",
 });
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="pl" className={lato.variable}>
       {/*
@@ -26,7 +22,7 @@ export default function RootLayout({
       */}
       <head />
       <body>
-        <div className={classes.wrapper}>
+        <div className={styles.app_wrapper}>
           <Header />
           {children}
           <Footer />
