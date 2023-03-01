@@ -46,12 +46,42 @@ p {
 .group {
   display: flex;
   align-items: center;
-  gap: 48px;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media screen and (min-width: 560px) {
+  .group {
+    flex-direction: row;
+    gap: 48px;
+  }
 }
 
 .left,
 .right {
   flex: 1;
+}
+
+.left {
+  order: 2;
+}
+.right {
+  order: 1;
+}
+.right img {
+  max-width: 200px;
+}
+
+@media screen and (min-width: 560px) {
+  .left {
+    order: 1;
+  }
+  .right {
+    order: 2;
+  }
+  .right img {
+    max-width: 300px;
+  }
 }
 
 img {
@@ -71,4 +101,10 @@ img {
   max-width: var(--page-width-main);
   width: 100%;
   padding: 48px 12px;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
 }

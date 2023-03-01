@@ -27,7 +27,16 @@ const chooseSection = (section, data) => {
   }
 };
 
-export default function ProjectContent({ sections }) {
+interface ProjectContentProps {
+  sections: [
+    {
+      type: string;
+      content: string;
+    }
+  ];
+}
+
+export default function ProjectContent({ sections }: ProjectContentProps) {
   const renderContent = sections.map((section) => (
     <Fragment key={section.content}>
       {chooseSection(section.type, section.content)}

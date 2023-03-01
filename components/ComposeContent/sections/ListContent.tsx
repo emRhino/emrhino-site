@@ -1,7 +1,11 @@
 import styles from "../ComposeContent.module.css";
 
-export default function ListContent({ data }) {
-  const renderList = data.map((line) => (
+interface ListContentProps {
+  data: string[];
+}
+
+export default function ListContent({ data }: ListContentProps) {
+  const renderList = data.map((line: string) => (
     <li className={styles.listItem} key={line}>
       {line}
     </li>

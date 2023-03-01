@@ -1,3 +1,4 @@
+import React from "react";
 import { Lato } from "@next/font/google";
 
 import Header from "@/components/Header/Header";
@@ -13,7 +14,11 @@ const lato = Lato({
   variable: "--font-roboto",
 });
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="pl" className={lato.variable}>
       {/*

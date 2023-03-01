@@ -2,7 +2,17 @@ import { Fragment } from "react";
 import Link from "next/link";
 import styles from "../ComposeContent.module.css";
 
-export default function LinksContent({ data }) {
+interface LinksContentProps {
+  data: [
+    {
+      label: string;
+      source: string;
+    }
+  ];
+}
+
+export default function LinksContent({ data }: LinksContentProps) {
+  console.log(data);
   const links = data.map((link) => (
     <Fragment key={link.label}>
       <Link href={link.source} target="_blank">

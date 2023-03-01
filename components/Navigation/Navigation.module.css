@@ -10,10 +10,16 @@
 .nav {
   display: flex;
   list-style-type: none;
-  margin: 0;
+  margin: 12px 0 0 0;
   padding: 0;
 }
 
 .active {
   border-bottom: 3px solid var(--color-purple-1);
+}
+
+@media screen and (min-width: 560px) {
+  .nav {
+    margin: 0;
+  }
 }
