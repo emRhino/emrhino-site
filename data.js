@@ -332,6 +332,74 @@ export const projects = [
       height: 400,
     },
   },
+  {
+    id: 8,
+    name: "Strona portfolio emrhino.pl",
+    description: [
+      {
+        type: "p",
+        content:
+          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego. Motyw sklepu został przeze mnie zakodowany od zera.",
+      },
+      {
+        type: "image",
+        content: "jaklis.png",
+        width: 730,
+        height: 300,
+      },
+      {
+        type: "links",
+        content: [
+          {
+            label: "Live",
+            source: "https://jaklis.eu/",
+          },
+        ],
+      },
+    ],
+    short_description:
+      "Zaprojektowanie i wdrożenie sklepu internetowego na Wordpress + Woocommerce",
+    slug: "projekt-7",
+    image: {
+      source: "projekt-7.png",
+      width: 800,
+      height: 400,
+    },
+  },
+  {
+    id: 9,
+    name: "Gra kółko i krzyżyk",
+    description: [
+      {
+        type: "p",
+        content:
+          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego. Motyw sklepu został przeze mnie zakodowany od zera.",
+      },
+      {
+        type: "image",
+        content: "jaklis.png",
+        width: 730,
+        height: 300,
+      },
+      {
+        type: "links",
+        content: [
+          {
+            label: "Live",
+            source: "https://jaklis.eu/",
+          },
+        ],
+      },
+    ],
+    short_description:
+      "Zaprojektowanie i wdrożenie sklepu internetowego na Wordpress + Woocommerce",
+    slug: "projekt-7",
+    image: {
+      source: "projekt-7.png",
+      width: 800,
+      height: 400,
+    },
+  },
 ];
 
 export const home_page = {
@@ -348,12 +416,16 @@ export const about_page = {
   content: [
     {
       type: "image",
-      content: "me.png",
+      content: {
+        source: "me.jpg",
+        width: 300,
+        height: 300,
+      },
     },
     {
       type: "p",
       content:
-        "Od przeszło 12 lat <strong>tworzę strony i sklepy internetowe</strong> jako freelancer, ale nigdy nie pracowałem dłużej jako etatowy programista. Dziś chcę to zmienić. Szukam pracy na stanowisku junior front-end developera.",
+        "Od przeszło 12 lat tworzę strony i sklepy internetowe jako freelancer, ale nigdy nie pracowałem dłużej jako etatowy programista. Dziś chcę to zmienić. Szukam pracy na stanowisku junior front-end developera.",
     },
     {
       type: "h2",

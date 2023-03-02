@@ -10,15 +10,11 @@ export default function Home() {
           <div className="left">
             <h1 className={styles.h1}>Cześć, tutaj Marcin Rynkowski</h1>
             <p className={styles.text}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+              Dobrze Cię tu widzieć! Jeżeli potrzebujesz, poniżej moesz pobrać
+              moje aktualnie CV lub w skrócie dowiedzieć się więcej o mnie.
             </p>
             <div className={styles.links}>
-              <Button href="/cv" style="primary">
+              <Button href="/Marcin-Rynkowski-CV-2023.pdf" style="primary">
                 Pobierz CV
               </Button>
               <Button href="/o-mnie" style="secondary">
@@ -40,21 +36,17 @@ export default function Home() {
         <div className="group">
           <div className="left">
             <Image
-              src="/me.jpg"
+              src="/portfolio.png"
               alt="Marcin Rynkowski"
-              width={1037}
-              height={692}
+              width={1345}
+              height={842}
             />
           </div>
           <div className="right">
             <h2>Portfolio</h2>
             <p className={styles.text}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+              W tym miejscu znajdziesz kilka z moich projektów. Tam gdzie to
+              było możlwe umieściłem linki do Githuba lub wersji live projektu.
             </p>
             <div className={styles.links}>
               <Button href="/projekty" style="primary">
@@ -67,13 +59,14 @@ export default function Home() {
       <section className="section">
         <h2>Kontakt</h2>
         <p className={styles.text}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
+          Jeżeli chcesz się ze mną skontaktować, możesz to zrobić klikając
+          pniżej.
         </p>
+        <div className={styles.links}>
+          <Button href="/kontakt" style="primary">
+            Zobacz formy kontaktu
+          </Button>
+        </div>
       </section>
     </main>
   );

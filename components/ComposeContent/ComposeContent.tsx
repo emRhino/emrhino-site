@@ -4,6 +4,7 @@ import ListContent from "./sections/ListContent";
 import ImageContent from "./sections/ImageContent";
 import LinksContent from "./sections/LinksContent";
 import VideoContent from "./sections/VideoContent";
+import Heading from "./sections/Heading";
 
 const chooseSection = (section, data) => {
   switch (section) {
@@ -21,6 +22,9 @@ const chooseSection = (section, data) => {
       break;
     case "video":
       return <VideoContent data={data} />;
+      break;
+    case "h2":
+      return <Heading data={data} />;
       break;
     default:
       throw new Error(`${section} - niepoprawny szablon sekcji`);
