@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import styles from "./page.module.css";
@@ -10,6 +11,10 @@ import getProjectBySlug from "@/helpers/getProjectBySlug";
 import Labels from "@/components/ComposeContent/sections/Labels";
 
 export default function SingleProjects() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const pathname = usePathname();
   const project = getProjectBySlug(projects, pathname);
   // const { name, description, image } = project[0];

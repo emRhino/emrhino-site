@@ -1,7 +1,7 @@
 import classNames from "classnames";
 
 export function getLabelClass(styles, label) {
-  return classNames({
+  const classes = classNames({
     [styles.js]: label.id === "js",
     [styles.html]: label.id === "html",
     [styles.css]: label.id === "css",
@@ -15,4 +15,6 @@ export function getLabelClass(styles, label) {
     [styles.styledComponents]: label.id === "styled",
     [styles.restapi]: label.id === "restapi",
   });
+
+  return classes;
 }

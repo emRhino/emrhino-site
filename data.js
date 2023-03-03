@@ -491,8 +491,8 @@ export const projects = [
         id: "react",
       },
       {
-        label: "HTML",
-        id: "html",
+        label: "TypeScript",
+        id: "typescript",
       },
       {
         label: "CSS Modules",
@@ -539,8 +539,8 @@ export const projects = [
         id: "react",
       },
       {
-        label: "HTML",
-        id: "html",
+        label: "TypeScript",
+        id: "typescript",
       },
       {
         label: "CSS Modules",
@@ -589,10 +589,6 @@ export const projects = [
       {
         label: "REST API",
         id: "restapi",
-      },
-      {
-        label: "HTML",
-        id: "html",
       },
       {
         label: "Styled-components",
