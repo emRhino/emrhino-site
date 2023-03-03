@@ -15,7 +15,8 @@
 
 .project a {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
   gap: 24px;
   overflow: hidden;
   position: relative;
@@ -26,12 +27,24 @@
   transition: box-shadow 0.2s ease-in-out;
 }
 
+@media screen and (min-width: 480px) {
+  .project a {
+    flex-wrap: nowrap;
+  }
+}
+
 .project a:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .project a img {
   display: block;
-  max-width: 180px;
+  max-width: 100%;
   border-radius: 12px;
+}
+
+@media screen and (min-width: 480px) {
+  .project a img {
+    max-width: 180px;
+  }
 }
