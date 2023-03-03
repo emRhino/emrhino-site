@@ -14,7 +14,13 @@ export default function Home() {
               moje aktualnie CV lub w skrócie dowiedzieć się więcej o mnie.
             </p>
             <div className={styles.links}>
-              <Button href="/Marcin-Rynkowski-CV-2023.pdf" style="primary">
+              <Button
+                href="/Marcin-Rynkowski-CV-2023.pdf"
+                style="primary"
+                target="_blank"
+                rel="noopener noreferrer"
+                locale={false}
+              >
                 Pobierz CV
               </Button>
               <Button href="/o-mnie" style="secondary">
