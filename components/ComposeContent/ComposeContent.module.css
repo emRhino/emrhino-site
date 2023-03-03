@@ -20,3 +20,83 @@
 .image {
   margin: 1rem 0;
 }
+
+.labels {
+  margin: 12px 0 0 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 6px;
+  /* opacity: 0.65; */
+}
+
+.labels li {
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.75rem;
+  background-color: #acacac;
+  color: var(--color-label-text-light);
+}
+
+.js {
+  background: #f7df1e;
+}
+
+.react {
+  background: #8fcef2;
+}
+
+.html {
+  background: #e34c26;
+  color: var(--color-label-text-light);
+}
+
+.css {
+  background: #495ee6;
+  color: var(--color-label-text-light);
+}
+
+.moduleCss {
+  background: rgb(228, 228, 228);
+}
+
+.restapi {
+  background: rgb(122, 122, 122);
+  color: var(--color-label-text-light);
+}
+
+.wordpress {
+  background: #476e95;
+  color: var(--color-label-text-light);
+}
+
+.nextjs {
+  background: #000000;
+  color: var(--color-label-text-light);
+}
+
+.typescript {
+  background: #3178c6;
+  color: var(--color-label-text-light);
+}
+
+.redux {
+  background: #764abc;
+  color: var(--color-label-text-light);
+}
+
+.styledComponents {
+  background: #db7093;
+  color: var(--color-label-text-light);
+}
+
+.php {
+  background: #777bb3;
+  color: var(--color-label-text-light);
+}
+
+.sass {
+  background: #c69;
+  color: var(--color-label-text-light);
+}

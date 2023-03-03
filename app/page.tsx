@@ -45,8 +45,8 @@ export default function Home() {
           <div className="right">
             <h2>Portfolio</h2>
             <p className={styles.text}>
-              W tym miejscu znajdziesz kilka z moich projektów. Tam gdzie to
-              było możlwe umieściłem linki do Githuba lub wersji live projektu.
+              W tym miejscu znajdziesz kilka moich projektów. Tam gdzie to było
+              możlwe umieściłem linki do Githuba lub wersji live projektu.
             </p>
             <div className={styles.links}>
               <Button href="/projekty" style="primary">

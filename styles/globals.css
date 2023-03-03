@@ -15,6 +15,9 @@
   --page-width-footer: 800px;
   --page-width-header: 1000px;
   --page-width-main: 800px;
+
+  --color-label-text-light: rgba(255, 255, 255, 0.9);
+  --color-label-text-dark: rgba(0, 0, 0, 0.65);
 }
 
 * {

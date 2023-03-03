@@ -1,22 +1,22 @@
-import styles from "./ProjectsList.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import classnames from "classnames";
+
+import styles from "./ProjectsList.module.css";
+import Labels from "../ComposeContent/sections/Labels";
 
 interface ProjectItem {
   project: Object;
-  isFirstProject?: boolean;
+  labels: {
+    id: string;
+    label: string;
+  };
 }
 
-export default function ProjectItem({ project, isFirstProject }: ProjectItem) {
-  const { image, slug, name } = project;
-
-  const classes = classnames(styles.project, {
-    [styles.first_prj]: isFirstProject,
-  });
+export default function ProjectItem({ project }: ProjectItem) {
+  const { image, slug, name, labels } = project;
 
   return (
-    <li className={classes}>
+    <li className={styles.project}>
       <Link href={`/projekty/${slug}`}>
         <Image
           src={`/${image.source}`}
@@ -24,7 +24,12 @@ export default function ProjectItem({ project, isFirstProject }: ProjectItem) {
           width={image.width}
           height={image.height}
         />
-        <span>{name}</span>
+        <span className={styles.details}>
+          <span className={styles.title}>{name}</span>
+          <span className={styles.labels}>
+            <Labels data={labels} />
+          </span>
+        </span>
       </Link>
     </li>
   );
