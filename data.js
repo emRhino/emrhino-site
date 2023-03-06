@@ -573,59 +573,59 @@ export const projects = [
       "Zaprojektowanie i wdrożenie sklepu internetowego na Wordpress + Woocommerce",
     slug: "projekt-7",
     image: {
-      source: "projekt-7.png",
+      source: "projekt-8.png",
       width: 800,
       height: 400,
     },
   },
-  {
-    id: 10,
-    name: "Lokalizator adresów IP",
-    labels: [
-      {
-        label: "React",
-        id: "react",
-      },
-      {
-        label: "REST API",
-        id: "restapi",
-      },
-      {
-        label: "Styled-components",
-        id: "styled",
-      },
-    ],
-    description: [
-      {
-        type: "p",
-        content:
-          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego na WordPress + Woocommerce. Motyw sklepu został przeze mnie zakodowany od zera.",
-      },
-      {
-        type: "image",
-        content: "jaklis.png",
-        width: 730,
-        height: 300,
-      },
-      {
-        type: "links",
-        content: [
-          {
-            label: "Live",
-            source: "https://jaklis.eu/",
-          },
-        ],
-      },
-    ],
-    short_description:
-      "Zaprojektowanie i wdrożenie sklepu internetowego na Wordpress + Woocommerce",
-    slug: "projekt-7",
-    image: {
-      source: "projekt-7.png",
-      width: 800,
-      height: 400,
-    },
-  },
+  // {
+  //   id: 10,
+  //   name: "Lokalizator adresów IP",
+  //   labels: [
+  //     {
+  //       label: "React",
+  //       id: "react",
+  //     },
+  //     {
+  //       label: "REST API",
+  //       id: "restapi",
+  //     },
+  //     {
+  //       label: "Styled-components",
+  //       id: "styled",
+  //     },
+  //   ],
+  //   description: [
+  //     {
+  //       type: "p",
+  //       content:
+  //         "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego na WordPress + Woocommerce. Motyw sklepu został przeze mnie zakodowany od zera.",
+  //     },
+  //     {
+  //       type: "image",
+  //       content: "jaklis.png",
+  //       width: 730,
+  //       height: 300,
+  //     },
+  //     {
+  //       type: "links",
+  //       content: [
+  //         {
+  //           label: "Live",
+  //           source: "https://jaklis.eu/",
+  //         },
+  //       ],
+  //     },
+  //   ],
+  //   short_description:
+  //     "Zaprojektowanie i wdrożenie sklepu internetowego na Wordpress + Woocommerce",
+  //   slug: "projekt-7",
+  //   image: {
+  //     source: "projekt-7.png",
+  //     width: 800,
+  //     height: 400,
+  //   },
+  // },
 ];
 
 export const home_page = {
