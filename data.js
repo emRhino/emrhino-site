@@ -211,7 +211,7 @@ export const projects = [
       {
         type: "p",
         content:
-          "Galeria Rękodzieła jest moim osobistym projektem. Pod tą marką prowadzę na Instagramie konto repostujące, którego głownym celem jest promocja polskich rękodzielników oraz pozyskiwanie klientów do tworzeniu sklepów.",
+          "Galeria Rękodzieła jest moim osobistym projektem. Pod tą marką prowadzę na Instagramie konto repostujące, którego głownym celem jest promocja polskich rękodzielników oraz pozyskiwanie klientów, który tworze sklepy internetowe.",
       },
       {
         type: "links",
@@ -243,7 +243,7 @@ export const projects = [
       {
         type: "p",
         content:
-          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego. Motyw sklepu został przeze mnie zakodowany od zera.",
+          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego na WordPress + Woocommerce. Motyw sklepu został przeze mnie zakodowany od zera.",
       },
       {
         type: "links",
@@ -271,7 +271,7 @@ export const projects = [
       {
         type: "p",
         content:
-          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego. Motyw sklepu został przeze mnie zakodowany od zera.",
+          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego na WordPress + Woocommerce. Motyw sklepu został przeze mnie zakodowany od zera.",
       },
       {
         type: "image",
@@ -290,7 +290,7 @@ export const projects = [
       },
     ],
     short_description:
-      "Zaprojektowanie i wdrożenie sklepu internetowego na Wordpress + Woocommerce",
+      "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego na WordPress + Woocommerce. Motyw sklepu został przeze mnie zakodowany od zera.",
     slug: "projekt-6",
     image: {
       source: "projekt-6.png",
@@ -339,7 +339,7 @@ export const projects = [
       {
         type: "p",
         content:
-          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego. Motyw sklepu został przeze mnie zakodowany od zera.",
+          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego na WordPress + Woocommerce. Motyw sklepu został przeze mnie zakodowany od zera.",
       },
       {
         type: "image",
@@ -358,7 +358,7 @@ export const projects = [
       },
     ],
     short_description:
-      "Zaprojektowanie i wdrożenie sklepu internetowego na Wordpress + Woocommerce",
+      "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego na WordPress + Woocommerce. Motyw sklepu został przeze mnie zakodowany od zera.",
     slug: "projekt-7",
     image: {
       source: "projekt-7.png",
@@ -373,7 +373,7 @@ export const projects = [
       {
         type: "p",
         content:
-          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego. Motyw sklepu został przeze mnie zakodowany od zera.",
+          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego na WordPress + Woocommerce. Motyw sklepu został przeze mnie zakodowany od zera.",
       },
       {
         type: "image",
@@ -486,11 +486,6 @@ export const contact_page = {
           id: "mail",
           label: "toRynkowski@gmail.com",
           link: "mailto:toRynkowski@gmail.com",
-        },
-        {
-          id: "fb",
-          label: "Facebook",
-          link: "",
         },
         {
           id: "linkedin",
