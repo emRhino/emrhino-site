@@ -564,7 +564,7 @@ export const projects = [
         content: [
           {
             label: "Live",
-            source: "https://jaklis.eu/",
+            source: "https://tic-tac-toe-eta-red.vercel.app/",
           },
         ],
       },
