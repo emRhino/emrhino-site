@@ -14,7 +14,13 @@ export default function Home() {
               moje aktualnie CV lub w skrócie dowiedzieć się więcej o mnie.
             </p>
             <div className={styles.links}>
-              <Button href="/Marcin-Rynkowski-CV-2023.pdf" style="primary">
+              <Button
+                href="/Marcin-Rynkowski-CV-2023.pdf"
+                style="primary"
+                target="_blank"
+                rel="noopener noreferrer"
+                locale={false}
+              >
                 Pobierz CV
               </Button>
               <Button href="/o-mnie" style="secondary">
@@ -45,8 +51,8 @@ export default function Home() {
           <div className="right">
             <h2>Portfolio</h2>
             <p className={styles.text}>
-              W tym miejscu znajdziesz kilka z moich projektów. Tam gdzie to
-              było możlwe umieściłem linki do Githuba lub wersji live projektu.
+              W tym miejscu znajdziesz kilka moich projektów. Tam gdzie to było
+              możlwe umieściłem linki do Githuba lub wersji live projektu.
             </p>
             <div className={styles.links}>
               <Button href="/projekty" style="primary">

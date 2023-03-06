@@ -17,6 +17,20 @@ export const projects = [
   {
     id: 1,
     name: "Narzędzie filtrujące/sortujące komentarze na Instagramie",
+    labels: [
+      {
+        label: "JavaScript",
+        id: "js",
+      },
+      {
+        label: "HTML",
+        id: "html",
+      },
+      {
+        label: "CSS",
+        id: "css",
+      },
+    ],
     description: [
       {
         type: "p",
@@ -93,6 +107,24 @@ export const projects = [
   {
     id: 2,
     name: "Przeglądarka produktów na smyk.com",
+    labels: [
+      {
+        label: "JavaScript",
+        id: "js",
+      },
+      {
+        label: "REST API",
+        id: "restapi",
+      },
+      {
+        label: "HTML",
+        id: "html",
+      },
+      {
+        label: "CSS",
+        id: "css",
+      },
+    ],
     description: [
       {
         type: "image",
@@ -157,6 +189,32 @@ export const projects = [
   {
     id: 3,
     name: "Wyszukiwarka ofert pracy w SMYK",
+    labels: [
+      {
+        label: "Wordpress",
+        id: "wordpress",
+      },
+      {
+        label: "REST API",
+        id: "restapi",
+      },
+      {
+        label: "PHP",
+        id: "php",
+      },
+      {
+        label: "JavaScript",
+        id: "js",
+      },
+      {
+        label: "HTML",
+        id: "html",
+      },
+      {
+        label: "SASS",
+        id: "sass",
+      },
+    ],
     description: [
       {
         type: "image",
@@ -201,6 +259,28 @@ export const projects = [
   {
     id: 4,
     name: "Serwis internetowy Galerii Rękodzieła",
+    labels: [
+      {
+        label: "Wordpress",
+        id: "wordpress",
+      },
+      {
+        label: "PHP",
+        id: "php",
+      },
+      {
+        label: "JavaScript",
+        id: "js",
+      },
+      {
+        label: "HTML",
+        id: "html",
+      },
+      {
+        label: "SASS",
+        id: "sass",
+      },
+    ],
     description: [
       {
         type: "image",
@@ -239,6 +319,28 @@ export const projects = [
   {
     id: 5,
     name: "Sklep internetowy Mukka Senso",
+    labels: [
+      {
+        label: "Wordpress",
+        id: "wordpress",
+      },
+      {
+        label: "PHP",
+        id: "php",
+      },
+      {
+        label: "JavaScript",
+        id: "js",
+      },
+      {
+        label: "HTML",
+        id: "html",
+      },
+      {
+        label: "SASS",
+        id: "sass",
+      },
+    ],
     description: [
       {
         type: "p",
@@ -267,6 +369,28 @@ export const projects = [
   {
     id: 6,
     name: "Sklep internetowy Między Drzewami",
+    labels: [
+      {
+        label: "Wordpress",
+        id: "wordpress",
+      },
+      {
+        label: "PHP",
+        id: "php",
+      },
+      {
+        label: "JavaScript",
+        id: "js",
+      },
+      {
+        label: "HTML",
+        id: "html",
+      },
+      {
+        label: "SASS",
+        id: "sass",
+      },
+    ],
     description: [
       {
         type: "p",
@@ -301,6 +425,28 @@ export const projects = [
   {
     id: 7,
     name: "Sklep internetowy Jaklis",
+    labels: [
+      {
+        label: "Wordpress",
+        id: "wordpress",
+      },
+      {
+        label: "PHP",
+        id: "php",
+      },
+      {
+        label: "JavaScript",
+        id: "js",
+      },
+      {
+        label: "HTML",
+        id: "html",
+      },
+      {
+        label: "SASS",
+        id: "sass",
+      },
+    ],
     description: [
       {
         type: "p",
@@ -335,6 +481,24 @@ export const projects = [
   {
     id: 8,
     name: "Strona portfolio emrhino.pl",
+    labels: [
+      {
+        label: "Next.js",
+        id: "nextjs",
+      },
+      {
+        label: "React",
+        id: "react",
+      },
+      {
+        label: "TypeScript",
+        id: "typescript",
+      },
+      {
+        label: "CSS Modules",
+        id: "cssmodule",
+      },
+    ],
     description: [
       {
         type: "p",
@@ -369,6 +533,68 @@ export const projects = [
   {
     id: 9,
     name: "Gra kółko i krzyżyk",
+    labels: [
+      {
+        label: "React",
+        id: "react",
+      },
+      {
+        label: "TypeScript",
+        id: "typescript",
+      },
+      {
+        label: "CSS Modules",
+        id: "cssmodule",
+      },
+    ],
+    description: [
+      {
+        type: "p",
+        content:
+          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego. Motyw sklepu został przeze mnie zakodowany od zera.",
+      },
+      {
+        type: "image",
+        content: "jaklis.png",
+        width: 730,
+        height: 300,
+      },
+      {
+        type: "links",
+        content: [
+          {
+            label: "Live",
+            source: "https://jaklis.eu/",
+          },
+        ],
+      },
+    ],
+    short_description:
+      "Zaprojektowanie i wdrożenie sklepu internetowego na Wordpress + Woocommerce",
+    slug: "projekt-7",
+    image: {
+      source: "projekt-7.png",
+      width: 800,
+      height: 400,
+    },
+  },
+  {
+    id: 10,
+    name: "Lokalizator adresów IP",
+    labels: [
+      {
+        label: "React",
+        id: "react",
+      },
+      {
+        label: "REST API",
+        id: "restapi",
+      },
+      {
+        label: "Styled-components",
+        id: "styled",
+      },
+    ],
     description: [
       {
         type: "p",
@@ -406,7 +632,95 @@ export const home_page = {
   page_title: "Strona główna",
   page_meta_title: "Portfolio projektowe - Marcin Rynkowski - emRhino.pl",
   page_meta_description: "Portfolio projektowe - Marcin Rynkowski - emRhino.pl",
-  content: [],
+  content: [
+    {
+      type: "group",
+      content: [
+        {
+          column: "left",
+          content: [
+            {
+              type: "h1",
+              content: "Cześć, tutaj Marcin Rynkowski",
+            },
+            {
+              type: "p",
+              content:
+                "Dobrze Cię tu widzieć! Jeżeli potrzebujesz, poniżej moesz pobrać moje aktualnie CV lub w skrócie dowiedzieć się więcej o mnie.",
+            },
+            {
+              type: "links",
+              content: [],
+            },
+          ],
+        },
+        {
+          column: "right",
+          content: [
+            {
+              type: "image",
+              content: {
+                source: "",
+                width: 100,
+                height: 100,
+                alt: "",
+              },
+            },
+          ],
+        },
+      ],
+    },
+    {
+      type: "group",
+      content: [
+        {
+          column: "left",
+          content: [
+            {
+              type: "image",
+              content: {
+                source: "",
+                width: 100,
+                height: 100,
+                alt: "",
+              },
+            },
+          ],
+        },
+        {
+          column: "right",
+          content: [
+            {
+              type: "h2",
+              content: "Portfolio",
+            },
+            {
+              type: "p",
+              content:
+                "W tym miejscu znajdziesz kilka moich projektów. Tam gdzie to było możlwe umieściłem linki do Githuba lub wersji live projektu.",
+            },
+            {
+              type: "links",
+              content: [],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      type: "h2",
+      content: "Kontakt",
+    },
+    {
+      type: "p",
+      content:
+        "Jeżeli chcesz się ze mną skontaktować, możesz to zrobić klikając pniżej.",
+    },
+    {
+      type: "links",
+      content: [],
+    },
+  ],
 };
 
 export const about_page = {
@@ -420,6 +734,7 @@ export const about_page = {
         source: "me.jpg",
         width: 300,
         height: 300,
+        alt: "",
       },
     },
     {
