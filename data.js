@@ -523,9 +523,9 @@ export const projects = [
     ],
     short_description:
       "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego na WordPress + Woocommerce. Motyw sklepu został przeze mnie zakodowany od zera.",
-    slug: "projekt-7",
+    slug: "projekt-8",
     image: {
-      source: "projekt-7.png",
+      source: "projekt-8.png",
       width: 800,
       height: 400,
     },
@@ -571,9 +571,9 @@ export const projects = [
     ],
     short_description:
       "Zaprojektowanie i wdrożenie sklepu internetowego na Wordpress + Woocommerce",
-    slug: "projekt-7",
+    slug: "projekt-9",
     image: {
-      source: "projekt-8.png",
+      source: "projekt-9.png",
       width: 800,
       height: 400,
     },
