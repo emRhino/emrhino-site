@@ -291,7 +291,7 @@ export const projects = [
       {
         type: "p",
         content:
-          "Galeria Rękodzieła jest moim osobistym projektem. Pod tą marką prowadzę na Instagramie konto repostujące, którego głownym celem jest promocja polskich rękodzielników oraz pozyskiwanie klientów do tworzeniu sklepów.",
+          "Galeria Rękodzieła jest moim osobistym projektem. Pod tą marką prowadzę na Instagramie konto repostujące, którego głownym celem jest promocja polskich rękodzielników oraz pozyskiwanie klientów, który tworze sklepy internetowe.",
       },
       {
         type: "links",
@@ -345,7 +345,7 @@ export const projects = [
       {
         type: "p",
         content:
-          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego. Motyw sklepu został przeze mnie zakodowany od zera.",
+          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego na WordPress + Woocommerce. Motyw sklepu został przeze mnie zakodowany od zera.",
       },
       {
         type: "links",
@@ -395,7 +395,7 @@ export const projects = [
       {
         type: "p",
         content:
-          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego. Motyw sklepu został przeze mnie zakodowany od zera.",
+          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego na WordPress + Woocommerce. Motyw sklepu został przeze mnie zakodowany od zera.",
       },
       {
         type: "image",
@@ -414,7 +414,7 @@ export const projects = [
       },
     ],
     short_description:
-      "Zaprojektowanie i wdrożenie sklepu internetowego na Wordpress + Woocommerce",
+      "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego na WordPress + Woocommerce. Motyw sklepu został przeze mnie zakodowany od zera.",
     slug: "projekt-6",
     image: {
       source: "projekt-6.png",
@@ -503,7 +503,7 @@ export const projects = [
       {
         type: "p",
         content:
-          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego. Motyw sklepu został przeze mnie zakodowany od zera.",
+          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego na WordPress + Woocommerce. Motyw sklepu został przeze mnie zakodowany od zera.",
       },
       {
         type: "image",
@@ -522,10 +522,10 @@ export const projects = [
       },
     ],
     short_description:
-      "Zaprojektowanie i wdrożenie sklepu internetowego na Wordpress + Woocommerce",
-    slug: "projekt-7",
+      "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego na WordPress + Woocommerce. Motyw sklepu został przeze mnie zakodowany od zera.",
+    slug: "projekt-8",
     image: {
-      source: "projekt-7.png",
+      source: "projekt-8.png",
       width: 800,
       height: 400,
     },
@@ -564,68 +564,68 @@ export const projects = [
         content: [
           {
             label: "Live",
-            source: "https://jaklis.eu/",
+            source: "https://tic-tac-toe-eta-red.vercel.app/",
           },
         ],
       },
     ],
     short_description:
       "Zaprojektowanie i wdrożenie sklepu internetowego na Wordpress + Woocommerce",
-    slug: "projekt-7",
+    slug: "projekt-9",
     image: {
-      source: "projekt-7.png",
+      source: "projekt-9.png",
       width: 800,
       height: 400,
     },
   },
-  {
-    id: 10,
-    name: "Lokalizator adresów IP",
-    labels: [
-      {
-        label: "React",
-        id: "react",
-      },
-      {
-        label: "REST API",
-        id: "restapi",
-      },
-      {
-        label: "Styled-components",
-        id: "styled",
-      },
-    ],
-    description: [
-      {
-        type: "p",
-        content:
-          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego. Motyw sklepu został przeze mnie zakodowany od zera.",
-      },
-      {
-        type: "image",
-        content: "jaklis.png",
-        width: 730,
-        height: 300,
-      },
-      {
-        type: "links",
-        content: [
-          {
-            label: "Live",
-            source: "https://jaklis.eu/",
-          },
-        ],
-      },
-    ],
-    short_description:
-      "Zaprojektowanie i wdrożenie sklepu internetowego na Wordpress + Woocommerce",
-    slug: "projekt-7",
-    image: {
-      source: "projekt-7.png",
-      width: 800,
-      height: 400,
-    },
-  },
+  // {
+  //   id: 10,
+  //   name: "Lokalizator adresów IP",
+  //   labels: [
+  //     {
+  //       label: "React",
+  //       id: "react",
+  //     },
+  //     {
+  //       label: "REST API",
+  //       id: "restapi",
+  //     },
+  //     {
+  //       label: "Styled-components",
+  //       id: "styled",
+  //     },
+  //   ],
+  //   description: [
+  //     {
+  //       type: "p",
+  //       content:
+  //         "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego na WordPress + Woocommerce. Motyw sklepu został przeze mnie zakodowany od zera.",
+  //     },
+  //     {
+  //       type: "image",
+  //       content: "jaklis.png",
+  //       width: 730,
+  //       height: 300,
+  //     },
+  //     {
+  //       type: "links",
+  //       content: [
+  //         {
+  //           label: "Live",
+  //           source: "https://jaklis.eu/",
+  //         },
+  //       ],
+  //     },
+  //   ],
+  //   short_description:
+  //     "Zaprojektowanie i wdrożenie sklepu internetowego na Wordpress + Woocommerce",
+  //   slug: "projekt-7",
+  //   image: {
+  //     source: "projekt-7.png",
+  //     width: 800,
+  //     height: 400,
+  //   },
+  // },
 ];
 
 export const home_page = {
@@ -801,11 +801,6 @@ export const contact_page = {
           id: "mail",
           label: "toRynkowski@gmail.com",
           link: "mailto:toRynkowski@gmail.com",
-        },
-        {
-          id: "fb",
-          label: "Facebook",
-          link: "",
         },
         {
           id: "linkedin",
