@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Button from "@/components/Button/Button";
+import TechnologyList from "@/components/TechnologyList/TechnologyList";
 
 export default function Home() {
   return (
@@ -63,16 +64,8 @@ export default function Home() {
         </div>
       </section>
       <section className="section">
-        <h2>Kontakt</h2>
-        <p className={styles.text}>
-          Jeżeli chcesz się ze mną skontaktować, możesz to zrobić klikając
-          pniżej.
-        </p>
-        <div className={styles.links}>
-          <Button href="/kontakt" style="primary">
-            Zobacz formy kontaktu
-          </Button>
-        </div>
+        <h2>Technologie</h2>
+        <TechnologyList />
       </section>
     </main>
   );

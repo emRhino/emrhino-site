@@ -709,12 +709,27 @@ export const home_page = {
     },
     {
       type: "h2",
-      content: "Kontakt",
+      content: "Technologie",
     },
     {
-      type: "p",
-      content:
-        "Jeżeli chcesz się ze mną skontaktować, możesz to zrobić klikając pniżej.",
+      type: "list",
+      content: [
+        {
+          id: "github",
+          label: "Github",
+          link: "https://github.com/emRhino/",
+        },
+        {
+          id: "mail",
+          label: "toRynkowski@gmail.com",
+          link: "mailto:toRynkowski@gmail.com",
+        },
+        {
+          id: "linkedin",
+          label: "Linkedin",
+          link: "https://pl.linkedin.com/in/marcin-rynkowski-1b359246/pl",
+        },
+      ],
     },
     {
       type: "links",
@@ -728,15 +743,15 @@ export const about_page = {
   page_meta_title: "O mnie - Marcin Rynkowski - emRhino.pl",
   page_meta_description: "O mnie - Marcin Rynkowski - emRhino.pl",
   content: [
-    {
-      type: "image",
-      content: {
-        source: "me.jpg",
-        width: 300,
-        height: 300,
-        alt: "",
-      },
-    },
+    // {
+    //   type: "image",
+    //   content: {
+    //     source: "me.jpg",
+    //     width: 300,
+    //     height: 300,
+    //     alt: "",
+    //   },
+    // },
     {
       type: "p",
       content:

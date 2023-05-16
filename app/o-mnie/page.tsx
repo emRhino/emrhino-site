@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-import { about_page } from "@/data.js";
+import { about_page } from "@/data";
 import ComposeContent from "@/components/ComposeContent/ComposeContent";
 
 export default function About() {

@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-import { contact_page } from "@/data.js";
+import { contact_page } from "@/data";
 import Link from "next/link";
 import { BsLinkedin, BsEnvelope, BsFacebook, BsGithub } from "react-icons/bs";
 

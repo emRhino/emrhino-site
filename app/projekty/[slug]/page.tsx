@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 import styles from "./page.module.css";
 import Button from "@/components/Button/Button";
-import { projects } from "@/data";
+import { projects } from "data";
 import ComposeContent from "@/components/ComposeContent/ComposeContent";
 import getProjectBySlug from "@/helpers/getProjectBySlug";
 import Labels from "@/components/ComposeContent/sections/Labels";

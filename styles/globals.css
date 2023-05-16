@@ -25,7 +25,7 @@
 }
 
 body {
-  font-family: var(--font-roboto);
+  font-family: var(--font-lato);
   color: var(--color-primary);
   font-size: var(--font-size-base);
 }

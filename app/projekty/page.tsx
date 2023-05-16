@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-import { projects, projects_page } from "@/data.js";
+import { projects, projects_page } from "data.ts";
 import ProjectsList from "@/components/ProjectsList/ProjectsList";
 
 export default function Projekty() {

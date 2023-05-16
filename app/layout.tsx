@@ -1,5 +1,5 @@
 import React from "react";
-import { Lato } from "@next/font/google";
+import { Roboto } from "@next/font/google";
 
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
@@ -8,10 +8,10 @@ import "normalize.css/normalize.css";
 import "@/styles/globals.css";
 import styles from "@/app/page.module.css";
 
-const lato = Lato({
+const lato = Roboto({
   subsets: ["latin-ext"],
   weight: ["300", "400", "700", "900"],
-  variable: "--font-roboto",
+  variable: "--font-lato",
 });
 
 export default function RootLayout({

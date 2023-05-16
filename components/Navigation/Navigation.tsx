@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { navs } from "@/data.js";
+import { navs } from "data";
 import styles from "./Navigation.module.css";
 import NavigationItem from "./NavigationItem";
 
