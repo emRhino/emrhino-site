@@ -16,7 +16,7 @@ export default function Home() {
             </p>
             <div className={styles.links}>
               <Button
-                href="/Marcin-Rynkowski-CV-2023.pdf"
+                href="/Marcin-Rynkowski-CV-2023_1.pdf"
                 style="primary"
                 target="_blank"
                 rel="noopener noreferrer"
