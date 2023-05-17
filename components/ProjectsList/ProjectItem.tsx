@@ -13,7 +13,7 @@ interface ProjectItem {
 }
 
 export default function ProjectItem({ project }: ProjectItem) {
-  const { image, slug, name, labels } = project;
+  const { image, slug, name, labels, short_description } = project;
 
   return (
     <li className={styles.project}>
@@ -29,6 +29,7 @@ export default function ProjectItem({ project }: ProjectItem) {
           <span className={styles.labels}>
             <Labels data={labels} />
           </span>
+          <span className={styles.excerpt}>{short_description}</span>
         </span>
       </Link>
     </li>

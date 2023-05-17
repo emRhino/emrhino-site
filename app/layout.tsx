@@ -1,5 +1,6 @@
 import React from "react";
 import { Roboto } from "@next/font/google";
+import Head from "next/head";
 
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";

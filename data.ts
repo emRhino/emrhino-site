@@ -78,23 +78,12 @@ export const projects = [
         ],
       },
       {
-        type: "p",
-        id: 7,
-        content:
-          "Ponieważ skrypt jest plikiem lokalnym, umieszczam wideo prezentujące działanie kodu:",
-      },
-      {
-        type: "video",
-        id: 8,
-        content: "",
-      },
-      {
         type: "links",
         id: 9,
         content: [
           {
             label: "Github",
-            source: "https://github.com/emRhino/GalRek-tool",
+            source: "https://github.com/emRhino/smykomat",
           },
         ],
       },
@@ -365,17 +354,6 @@ export const projects = [
           "Umieścić kod jako dodatek do przeglądarki chrome",
           "Podpiąć Firebase, zautomatyzować dodawanie i pobieranie infromacji o twórcach, którzy były już udostępnieni",
         ],
-      },
-      {
-        type: "p",
-        id: 7,
-        content:
-          "Ponieważ skrypt jest plikiem lokalnym, umieszczam wideo prezentujące działanie kodu:",
-      },
-      {
-        type: "video",
-        id: 8,
-        content: "",
       },
       {
         type: "links",
@@ -682,12 +660,12 @@ export const home_page = {
           content: [
             {
               type: "h1",
-              content: "Cześć, tutaj Marcin Rynkowski",
+              content: "Cześć,<br>tutaj Marcin Rynkowski",
             },
             {
               type: "p",
               content:
-                "Dobrze Cię tu widzieć! Jeżeli potrzebujesz, poniżej moesz pobrać moje aktualnie CV lub w skrócie dowiedzieć się więcej o mnie.",
+                "Dobrze Cię tu widzieć! Jeżeli potrzebujesz, poniżej możesz pobrać moje aktualnie CV lub w skrócie dowiedzieć się więcej o mnie.",
             },
             {
               type: "links",
@@ -805,7 +783,7 @@ export const about_page = {
     {
       type: "p",
       content:
-        "Do tej pory łączyłem jedno i drugie. Nie chcę rezygnować z dorywczego tworzeniu sklepów stron i sklepów, ale także nie planuję by freelance był moim jedynym źródłem dochodu. Lubię tworzyć poboczne projekty bo to daje mi fajne pole do eskperymentowania i nauki nowych rzeczy. Lubie także kontakt z ludźmi i zarządzanie projektami.",
+        "Do tej pory łączyłem jedno i drugie. Nie chcę rezygnować z dorywczego tworzenia małych e-sklepów, ale także nie planuję by freelance był moim jedynym źródłem dochodu. Lubię projekty po godzinach bo to daje mi przestrzeń do eskperymentowania i nauki nowych rzeczy. Lubie także kontakt z ludźmi i zarządzanie projektami.",
     },
     {
       type: "h2",
@@ -814,12 +792,12 @@ export const about_page = {
     {
       type: "p",
       content:
-        "Oprócz dorywczego tworzenia stron, moim podstawowym zajęciem jest praca na etacie w biurze smyka. Ulokowany jest obecnie w dziale handlowym chociaż moje kompetencje mocno zazębiają się z IT. Na początku mojej pracy miałem też swój duży wkład w proces developmentu ówczesnej wersji smyk.com - wraz z zewnętrznym zespołem programistów kodowałem front i byłem odpowiedzialny za wersję mobilną sklepu.",
+        "Moim podstawowym zajęciem jest praca na etacie w biurze smyka. Jestem zatrudniony jako Digital VM (specjalista od zarządzania frontem sklepu). Współpracuje ściśle z działem IT planując, rozpisująć i testując poszczeólne funkcjonalności sklepu i aplikacji mobilnej. Na początku mojej pracy miałem też swój duży wkład w proces developmentu ówczesnej wersji smyk.com - wraz z zewnętrznym zespołem programistów kodowałem front i byłem odpowiedzialny za wersję mobilną sklepu.",
     },
     {
       type: "p",
       content:
-        "Dziś jestem Product Ownerem aplikacji mobilnej smyk.com. Jestem odpowiedzialny za cały proces tworzenia aplikacji od analizy biznesowej, przez projektowanie, aż po wdrożenie. Współpracuję z project managerami, grafikami, testerami i innymi zespołami biznesowymi. Jestem również bezpośrednio zaangażowany w zarzadzanie kontentem aplikacji, pozyskiwanie klientów oraz osiąganie zakłądanych celów sprzedażowych. W smyku zawiaduję również wszytskimi stronami korporacyjnymi. Aktualizuje je i rozbudowuje w zależności od potrzeb biznesu.",
+        "Dziś jestem Product Ownerem aplikacji mobilnej smyk.com. Jestem odpowiedzialny za cały proces tworzenia aplikacji od analizy biznesowej, przez projektowanie, aż po wdrożenia. Współpracuję z project managerami, grafikami, testerami i innymi zespołami biznesowymi. Jestem również bezpośrednio zaangażowany w zarzadzanie kontentem aplikacji, pozyskiwanie klientów oraz osiąganie zakładanych celów sprzedażowych. W smyku zawiaduję również (rozwijam technicznie oraz zarządzam treścią) wszytskimi stronami korporacyjnymi.",
     },
     {
       type: "h2",
@@ -828,7 +806,7 @@ export const about_page = {
     {
       type: "p",
       content:
-        "Do biznesu trafiłem trochę przez przypadek, siłą inercji projektu sklepu smyk.com przeszedłem od kodowania w stronę zarządzania treści, testowania a później pracy nad backlogiem. Mimo, że wciąż lubie to robić to czuję, że w obecnym miejscu wiekszość moich doświadczeń wciąż się powtarza, nie wiele uczę się nowych rzeczy. Nie widzę siębie na podobnych stanowisku w innej firmie. Ponadto nieopisaną frajdę wciąż sprawiają mi zadania bardzo techniczne, wymagający pracy koncepcyjnej czy kodowania. Chcę do tego wrócić i tylko tym się zająć.",
+        "Do biznesu trafiłem trochę przez przypadek, siłą inercji projektu sklepu smyk.com przeszedłem od kodowania w stronę zarządzania treści, testowania a później pracy nad backlogiem. Mimo, że wciąż lubie to robić to czuję, że w obecnym miejscu wiekszość moich doświadczeń wciąż się powtarza, nie wiele uczę się nowych rzeczy. Nie widzę siębie na podobnym stanowisku w innej firmie. Ponadto nieopisaną frajdę wciąż sprawiają mi zadania bardzo techniczne, wymagający pracy koncepcyjnej czy kodowania. Chcę do tego wrócić i tylko tym się zająć.",
     },
   ],
 };

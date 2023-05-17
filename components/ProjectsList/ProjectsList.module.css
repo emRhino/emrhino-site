@@ -9,13 +9,13 @@
 
 .project a .title {
   display: block;
-  font-size: 1.35rem;
+  font-size: 1.65rem;
   font-weight: bold;
 }
 
 .project a {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   gap: 24px;
   overflow: hidden;
@@ -25,6 +25,13 @@
   border-radius: 12px;
   padding: 12px;
   transition: box-shadow 0.2s ease-in-out;
+}
+
+.excerpt {
+  display: block;
+  margin-top: 12px;
+  font-size: 0.875rem;
+  line-height: 1.4;
 }
 
 @media screen and (min-width: 480px) {
@@ -45,6 +52,6 @@
 
 @media screen and (min-width: 480px) {
   .project a img {
-    max-width: 180px;
+    max-width: 380px;
   }
 }

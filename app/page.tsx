@@ -9,10 +9,15 @@ export default function Home() {
       <section className="section">
         <div className="group">
           <div className="left">
-            <h1 className={styles.h1}>Cześć, tutaj Marcin Rynkowski</h1>
+            <h1 className={styles.h1}>
+              Cześć,
+              <br />
+              tutaj Marcin Rynkowski
+            </h1>
             <p className={styles.text}>
-              Dobrze Cię tu widzieć! Jeżeli potrzebujesz, poniżej moesz pobrać
-              moje aktualnie CV lub w skrócie dowiedzieć się więcej o mnie.
+              <strong>Pasjonat, programista, freelancer.</strong>
+              <br />
+              Dowiedz się więcej w sekcji o mnie lub pobierz moje aktualne CV.
             </p>
             <div className={styles.links}>
               <Button
@@ -52,8 +57,8 @@ export default function Home() {
           <div className="right">
             <h2>Portfolio</h2>
             <p className={styles.text}>
-              W tym miejscu znajdziesz kilka moich projektów. Tam gdzie to było
-              możlwe umieściłem linki do Githuba lub wersji live projektu.
+              Od prostych skryptów po kompletne sklepy internetowe.
+              <br />W tym miejscu znajdziesz moje przykładowe projekty.
             </p>
             <div className={styles.links}>
               <Button href="/projekty" style="primary">
