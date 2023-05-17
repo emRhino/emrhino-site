@@ -1,9 +1,9 @@
 export const HeadTags = ({
-  title,
+  title = "Marcin Rynkowski z emRhino.pl",
   description = "emrhino Marcin",
   robots = true,
 }: {
-  title?: string;
+  title: string;
   description?: string;
   robots?: boolean;
 }) => {

@@ -40,7 +40,7 @@ export const projects = [
         type: "p",
         id: 1,
         content:
-          "Prowadzę konto repostujące w branży Handmade na Instagramie, w ramach którego przeprowadzam cykliczne akcje promowania twórców. Każdy rekodzielnik może zostawić komentarz pod wskazanym postem. Następnie ja wybieram 10 komentarzy, który następnie udostępniam w relacji. Każdy twórca rękodzieła może być udostepniony tylko jeden raz.",
+          "Celem tego narzędzia jest szybkie pozyskanie cen wybranych produktów z wytypowanych sklepów branżowych.",
       },
       {
         type: "p",
@@ -51,18 +51,15 @@ export const projects = [
         type: "list",
         id: 3,
         content: [
-          "Pobieranie wszystkich dostępnych komentarz pod wybranym postem",
-          "Sortowanie komenatrzy od najstarszego",
-          "Filtrowanie komentarzy według klucza (twórca może pojawić się tylko raz)",
-          "Losowanie 5 komentarzy z obrobionej puli",
-          'Wyświetlanie komentarzy na dodatkowej warstwie "nad" postem na IG',
+          "Zautomatyzowanie ręcznego pozyskiwania cen ze sklepów konkurencyjnych",
+          "Sklejenie danych w plik excel, który będzie umożliwiał dalszą obróbkę",
         ],
       },
       {
         type: "p",
         id: 4,
         content:
-          "Projekt zrealizowałem poprzez stworzenie prostego skryptu, który wklejam w konsoli na odpowiedniej stronie Instagrama. Informacja o rekodzielnikach, którzy byli już udostepnieni znajduje się w obiekcie JSON. Na dzień dzisiejszy jest on aktualizowany ręcznie.",
+          "Największym wyzwaniem było ominiecie mechanizmów zabezpieczajacych przez scrapowaniem treści. W tym celu użyłem zewnętrznej usługi - ScrapingBee.",
       },
       {
         type: "p",
@@ -73,8 +70,9 @@ export const projects = [
         type: "list",
         id: 6,
         content: [
-          "Umieścić kod jako dodatek do przeglądarki chrome",
-          "Podpiąć Firebase, zautomatyzować dodawanie i pobieranie infromacji o twórcach, którzy były już udostępnieni",
+          "Umieścić kod w chmurze",
+          "Dodać interface użytkownika",
+          "Dodać crona, który będzie cyklicznie uruchamiał kod.",
         ],
       },
       {
@@ -89,7 +87,7 @@ export const projects = [
       },
     ],
     short_description:
-      "Projekt ma za zadanie wspomóc mnie w przeglądaniu i wybierania odpowiednich komentarzy pod postami na Instagramie.",
+      "Skrypt, którego zadaniem jest scrapowanie danych (cen) z innych sklepów internetowych.",
     slug: "projekt-0",
     image: {
       source: "projekt-0.png",
@@ -139,21 +137,21 @@ export const projects = [
       {
         type: "list",
         content: [
-          "Możliwość sprawdzenia dostepności dla wielu produktów",
-          "Możliwośc sprawdzania dostępności poprzez wgrwywanie plików CSV",
-          "Możliwość zbudowania zapytania, które zwróci określone produkty",
+          "Możliwość sprawdzenia dostepności dla wielu produktów.",
+          "Możliwośc sprawdzania dostępności poprzez wgrwywanie plików CSV.",
+          "Możliwość zbudowania zapytania, które zwróci określone produkty.",
           "Możliwość skopiowania wszystkich indeksów rozdzielonych przecinkiem.",
         ],
       },
       {
         type: "p",
         content:
-          "Projekt zrealizowałem poprzez stworzenie prostego lokalnego pliku HTML, który każdy zainteresowany może uruchomić w swojej przeglądarce. Do poprawnego działania do wszystkich requestów wysyłanych do serwera niezbędne są modyfikacje w przeglądarce rozwiązujące problem z CORS Policy.",
+          "Projekt zrealizowałem poprzez stworzenie prostego lokalnego pliku HTML, który każdy zainteresowany może uruchomić w swojej przeglądarce. Do poprawnego działania niezbędne są modyfikacje w przeglądarce rozwiązujące problem z CORS Policy.",
       },
       {
         type: "p",
         content:
-          "Wyzwania przed którymi stałem to m.in. odpytywania serwera w takim sposób by nie wpływać na wydajność serwera. Wszystkie zapytania są kolejkowane i uruchamiane paczkami w określonych interwałach.",
+          "Wyzwaniem przed którym stałem to m.in. odpytywania serwera w takim sposób by nie wpływać na wydajność serwera. Wszystkie zapytania są kolejkowane i uruchamiane paczkami w określonych interwałach.",
       },
       {
         type: "links",
@@ -165,8 +163,7 @@ export const projects = [
         ],
       },
     ],
-    short_description:
-      "Wyszukiwarka pozwala przeglądać produkty dostępne w sklepie internetowym smyk.com według różnych kryteriów.",
+    short_description: "Przeglądarka produktów na smyk.com",
     slug: "projekt-2",
     image: {
       source: "projekt-2.png",
@@ -213,12 +210,12 @@ export const projects = [
       {
         type: "p",
         content:
-          "Serwis eRecruiter informacje o dostępnych ofertach pracy zwraca przez API w formacie JSON. Strona korporacyjna smykgroup działa aktualnie na silniku WordPress.",
+          "Serwis eRecruiter informacje o dostępnych ofertach pracy zwraca przez API w formacie JSON. Strona korporacyjna smykgroup.com działa obecnie na silniku WordPress.",
       },
       {
         type: "p",
         content:
-          "Integrację wykonałem poprzez przygotowanie bardzo prostej wtyczki, która pobiera całego JSONa, wyciąga z niego jedynie te infromacje, które są niezbędne, a następnie zwraca na front.",
+          "Integrację wykonałem poprzez przygotowanie bardzo prostej wtyczki, która pobiera całego JSONa, wyciąga z niego jedynie te infromacje, które są niezbędne, a następnie zwraca je na front strony.",
       },
       {
         type: "p",
@@ -236,7 +233,7 @@ export const projects = [
       },
     ],
     short_description:
-      "Moje zadanie polagało na zintegrowaniu obecnej podstrony kariery smykgroup.com z zewnętrznym serwisem eRecruiter.",
+      "Projekt polegał na zintegrowaniu obecnej podstrony kariery smykgroup.com z zewnętrznym serwisem eRecruiter.",
     slug: "projekt-3",
     image: {
       source: "projekt-3.png",
@@ -269,26 +266,11 @@ export const projects = [
       {
         type: "p",
         content:
-          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego na WordPress + Woocommerce. Motyw sklepu został przeze mnie zakodowany od zera.",
-      },
-      {
-        type: "image",
-        content: "jaklis.png",
-        width: 730,
-        height: 300,
-      },
-      {
-        type: "links",
-        content: [
-          {
-            label: "Live",
-            source: "https://jaklis.eu/",
-          },
-        ],
+          "Jak widzisz, jest to bardzo prosta strona. Mimo to w trakcie jej budowy miałem dużo radości. Bardzo podoba mi się budowanie stron z ten sposób.",
       },
     ],
     short_description:
-      "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego na WordPress + Woocommerce. Motyw sklepu został przeze mnie zakodowany od zera.",
+      "Projekt edukacyjny, którego celem było zbudowanie mojego portfolio w technologii, której nie znałem - Next.js",
     slug: "projekt-8",
     image: {
       source: "projekt-8.png",
@@ -318,7 +300,7 @@ export const projects = [
         type: "p",
         id: 1,
         content:
-          "Prowadzę konto repostujące w branży Handmade na Instagramie, w ramach którego przeprowadzam cykliczne akcje promowania twórców. Każdy rekodzielnik może zostawić komentarz pod wskazanym postem. Następnie ja wybieram 10 komentarzy, który następnie udostępniam w relacji. Każdy twórca rękodzieła może być udostepniony tylko jeden raz.",
+          "Prowadzę konto repostujące w branży Handmade na Instagramie, w ramach którego przeprowadzam cykliczne akcje promowania twórców. Każdy rękodzielnik może zostawić komentarz pod wskazanym postem. Następnie ja wybieram 5 komentarzy, który następnie udostępniam w relacji. Każdy twórca rękodzieła może być udostepniony tylko jeden raz.",
       },
       {
         type: "p",
@@ -340,7 +322,7 @@ export const projects = [
         type: "p",
         id: 4,
         content:
-          "Projekt zrealizowałem poprzez stworzenie prostego skryptu, który wklejam w konsoli na odpowiedniej stronie Instagrama. Informacja o rekodzielnikach, którzy byli już udostepnieni znajduje się w obiekcie JSON. Na dzień dzisiejszy jest on aktualizowany ręcznie.",
+          "Projekt zrealizowałem poprzez stworzenie prostego skryptu, który wklejam w konsoli na odpowiedniej stronie Instagrama. Informacja o rękodzielnikach, którzy byli już udostepnieni znajduje się w obiekcie JSON. Na dzień dzisiejszy jest on aktualizowany ręcznie.",
       },
       {
         type: "p",
@@ -367,7 +349,7 @@ export const projects = [
       },
     ],
     short_description:
-      "Projekt ma za zadanie wspomóc mnie w przeglądaniu i wybierania odpowiednich komentarzy pod postami na Instagramie.",
+      "SKrypt ma za zadanie wspomóc mnie w zarządzaniu kontem na Instagramie.",
     slug: "projekt-1",
     image: {
       source: "projekt-1.png",
@@ -410,7 +392,12 @@ export const projects = [
       {
         type: "p",
         content:
-          "Galeria Rękodzieła jest moim osobistym projektem. Pod tą marką prowadzę na Instagramie konto repostujące, którego głownym celem jest promocja polskich rękodzielników oraz pozyskiwanie klientów, który tworze sklepy internetowe.",
+          "Galeria Rękodzieła jest moim osobistym projektem. Pod tą marką prowadzę na Instagramie konto repostujące, którego głownym celem jest promocja polskich rękodzielników oraz pozyskiwanie klientów, którym tworzę sklepy internetowe.",
+      },
+      {
+        type: "p",
+        content:
+          "Strona powstała z wykorzystaniem WordPressa. Dowolny rękodzielnik może się zarejestrować, a następnie założyć własną wizytówkę.",
       },
       {
         type: "links",
@@ -427,7 +414,7 @@ export const projects = [
       },
     ],
     short_description:
-      "Zaprojektowanie i wdrożenie serwisu, w którym rękodzielnicy mogą zakładać konta i wystawiać swoje wizytówki",
+      "Zaprojektowanie i wdrożenie serwisu, w którym rękodzielnicy mogą zakładać konta i wystawiać wizytówki swoich marek.",
     slug: "projekt-4",
     image: {
       source: "projekt-4.png",
@@ -476,8 +463,7 @@ export const projects = [
         ],
       },
     ],
-    short_description:
-      "Zaprojektowanie i wdrożenie sklepu internetowego na Wordpress + Woocommerce",
+    short_description: "Zaprojektowanie i wdrożenie sklepu internetowego.",
     slug: "projekt-5",
     image: {
       source: "projekt-5.png",
@@ -532,8 +518,7 @@ export const projects = [
         ],
       },
     ],
-    short_description:
-      "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego na WordPress + Woocommerce. Motyw sklepu został przeze mnie zakodowany od zera.",
+    short_description: "Zaprojektowanie i wdrożenie sklepu internetowego.",
     slug: "projekt-6",
     image: {
       source: "projekt-6.png",
@@ -588,8 +573,7 @@ export const projects = [
         ],
       },
     ],
-    short_description:
-      "Zaprojektowanie i wdrożenie sklepu internetowego na Wordpress + Woocommerce",
+    short_description: "Zaprojektowanie i wdrożenie sklepu internetowego.",
     slug: "projekt-7",
     image: {
       source: "projekt-7.png",
@@ -618,13 +602,7 @@ export const projects = [
       {
         type: "p",
         content:
-          "Projekt zakładał zaprojektowanie i wdrożenie, według wymagań klientki, sklepu internetowego. Motyw sklepu został przeze mnie zakodowany od zera.",
-      },
-      {
-        type: "image",
-        content: "jaklis.png",
-        width: 730,
-        height: 300,
+          "To moja pierwsza gra w JS, która powstała z wykorzystaniem Reacta.",
       },
       {
         type: "links",
@@ -636,8 +614,7 @@ export const projects = [
         ],
       },
     ],
-    short_description:
-      "Zaprojektowanie i wdrożenie sklepu internetowego na Wordpress + Woocommerce",
+    short_description: "Prosta gra stworzona w react.",
     slug: "projekt-9",
     image: {
       source: "projekt-9.png",
