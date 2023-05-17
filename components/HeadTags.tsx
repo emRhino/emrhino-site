@@ -10,7 +10,7 @@ export const HeadTags = ({
   return (
     <>
       <meta charSet="utf-8" />
-      <title>{title}</title>
+      <title>{title} - Marcin Rynkowski z emRhino.pl</title>
       <meta name="description" content={description} />
       <meta
         name="viewport"

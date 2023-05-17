@@ -16,9 +16,9 @@ interface ProjectsListProps {
 }
 
 export default function ProjectsList({ projects }: ProjectsListProps) {
-  const descSortProjects = projects.reverse();
+  // const descSortProjects = projects.reverse();
 
-  const renderProjects = descSortProjects.map((project, index: number) => {
+  const renderProjects = projects.map((project, index: number) => {
     return (
       <ProjectItem key={project.id} project={project} labels={project.labels} />
     );
